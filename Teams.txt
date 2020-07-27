@@ -1,0 +1,63 @@
+RealMadrid
+Spain
+11
+13 GK Courtois 0.1
+2 DF Carvajal 0.2
+5 DF Varane 0.3
+4 DF Ramos 0.5
+23 DF Mendy 0.4
+14 MF Casemiro 0.5
+10 MF Modric 0.6
+8 MF Kroos 0.7
+25 FW Junior 0.5
+20 FW Asensio 0.8
+9 FW Benzema 0.9
+4-3-3
+
+Barcelona
+Spain
+11
+1 GK TerStegen 0.1
+20 DF Roberto 0.3
+3 DF Pique 0.4
+15 DF Lenglet 0.2
+18 DF Alba 0.5
+5 MF Busquets 0.6
+22 MF Vidal 0.5
+28 MF Puig 0.4
+31 FW Fati 0.6
+10 FW Messi 0.9
+9 FW Suarez 0.9
+4-3-3
+
+Chelsea
+England
+11
+1 GK Kepa 0.1
+28 DF Azpilicueta 0.2
+15 DF Zouma 0.3
+2 DF Rudiger 0.2
+24 MF Rudiger 0.4
+5 MF Jorginho 0.3
+17 MF Kovacic 0.5
+3 MF Alonso 0.6
+19 FW Mount 0.5
+10 FW Willian 0.7
+8 FW Giroud 0.8
+3-4-3
+
+BayernMunich
+Germany
+11
+1 GK Neuer 0.1
+5 DF Pavard 0.3
+17 DF Boateng 0.4
+27 DF Alaba 0.3
+19 DF Davies 0.4
+32 MF Kimmich 0.5
+18 MF Goretzka 0.5
+25 MF Muller 0.7
+29 FW Coman 0.7
+22 FW Gnabry 0.8
+9 FW Lewandowski 0.9
+4-3-3
