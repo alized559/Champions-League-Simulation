@@ -11,6 +11,10 @@ public class Team {
   private int scoringAbility;
   private boolean won;
 
+  /*
+   * This constructor creates an array of players in the team
+   * @param input  A scanner object that reads from file
+  */
   public Team(Scanner input) {
     this.won = true;
     this.teamName = input.next();
@@ -28,26 +32,32 @@ public class Team {
     this.formation = input.next();
   }
 
+  // getter for country
   public String getCountry() {
     return this.country;
   }
 
+  // getter for teamName
   public String getTeamName() {
     return this.teamName;
   }
 
+  // getter for scoringAbility
   public int getScoringAbility() {
     return this.scoringAbility;
   }
 
+  // getter for won
   public boolean getWon() {
     return this.won;
   }
 
+  // setter for won
   public void setWon(boolean won) {
     this.won = won;
   }
 
+  // This method decides whcih players are playing
   public void createFirstEleven() {
     int gk = 1; // always one goalkeeper
     int df = this.formation.charAt(0) - '0';
@@ -71,6 +81,7 @@ public class Team {
     }
   }
 
+  // This method finds the scoring ability of the team
   public void scoringAbility() {
     for (int i = 0; i < this.players.length; i++) {
       if (this.players[i].getIsPlaying())
@@ -78,6 +89,7 @@ public class Team {
     }
   }
 
+  // This method returns the first player with max number of goals
   public Player getBestPlayer() {
     int max = Integer.MIN_VALUE;
     Player bestPlayer = null;
